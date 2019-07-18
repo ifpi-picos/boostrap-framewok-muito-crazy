@@ -1,11 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bootstrap Framework</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Muito Crazy</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/script.js"></script>
 </head>
+
 <body>
-  
+  <!--nav-->
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contatos</a></li>
+        <li><a href="#">Sobre</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contatos</a></li>
+        <li><a href="#">Sobre</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center purple-text text-darken-2">Muito Crazy</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">Uma forma divertida de viver</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="festa1.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+  <div class="container">
+    <div class="section">
+
+      <!--   Sobre   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center purple-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Nosso Trabalho</h5>
+
+            <p class="light">Organizamos diversos tipo de festa, desde a festas calmas e com pequeno publico
+              (casamentos, churrascos,
+              formaturas...) até shows com um publico enorme(Expos, Rock in Rio...)
+            </p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center purple-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">O Grupo</h5>
+
+            <p class="light">O grupo é constituido de alunos do IFPI, que ganham sua vida organizando altas 
+              festas</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center purple-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Contratantes</h5>
+
+            <p class="light">
+              Trabalhamos com difersos patrocínodores que sempre ajudam em todos eventos,
+              patrocinio de bebidas, decorações e investimentos para a realização dos eventos
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Uma enorme diversidade, para todos os gostos</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="festa2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+  <!--Contatos-->
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Contate-nos</h4>
+
+          <ul class="collapsible">
+            <li>
+              <div class="collapsible-header"><i class="material-icons">filter_drama</i>Ana Georgea</div>
+              <div class="collapsible-body"><img
+                    src="ana.jpg"></a><br>
+                <span>E-mail:...<br>
+                      Contato:...<br>
+                      Desenvolvedor do Site<br>
+                      Co-Produtora de Eventos
+                </span></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">filter_drama</i>Cairo Luan</div>
+              <div class="collapsible-body"><img
+                    src="luan.jpg"><br>
+                <span>E-mail: cairo.luanfnt@gmail.com<br>
+                  Contato: (89) 999070630<br>
+                  Desenvolvedor do Site<br>
+                  Produtor de Eventos, marketing e Desenvolvedor do Site</span></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">filter_drama</i>Cindyellen Cruz</div>
+              <div class="collapsible-body"><a href="https://www.instagram.com/cindyellencruz/?hl=pt-br"><img
+                    src="cindy.jpg"></a><br>
+                <span>E-mail: cindyellencruzlima@gmailcom<br>
+                  Contato: (89) 994382175<br>
+                  Decoradora de Aniversários
+                 </span></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">filter_drama</i>Fernanda Kelly</div>
+              <div class="collapsible-body"><a href="https://www.instagram.com/fernanda_kelly077/?hl=pt-br"><img
+                    src="fernanda2.jpg"></a><br>
+                <span>E-mail:...<br>
+                  Contato:...<br>
+                  Decoradora de Formaturas</span></div>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Diversão <b>GARANTIDA</b></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="festa3.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+  <!--footer-->
+  <footer class="page-footer purple darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Biografia da Empresa</h5>
+          <p class="grey-text text-lighten-4">Empresa destinada para produção e orgazação de diversos 
+            eventos.
+          </p>
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Eventos</h5>
+          <ul>
+            <li><a class="white-text" href="http://rockinrio.com/rio/pt-BR!">Rock in Rio</a></li>
+            <li><a class="white-text" href="https://www.lollapaloozabr.com/">Lollapalooza</a></li>
+            <li><a class="white-text" href="http://www.festivalexpocrato.com.br/">ExpoCrato</a></li>
+            <li><a class="white-text" href="https://www.instagram.com/quadrifest/">QuadriFest</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Insta dos Org.</h5>
+          <ul>
+            <li><a class="white-text" href="https://www.instagram.com/a_georgea2301/?hl=pt-br">Ana Georgea</a></li>
+            <li><a class="white-text" href="https://www.instagram.com/cairoluan_cl/?hl=pt-br">Cairo Luan</a></li>
+            <li><a class="white-text" href="https://www.instagram.com/cindyellencruz/?hl=pt-br">Cindyellen</a></li>
+            <li><a class="white-text" href="https://www.instagram.com/fernanda_kelly077/?hl=pt-br">Fernanda</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright purple darken-4">
+      <div class="container">
+        Made by <a class="brown-text text-lighten-3" href="https://www.instagram.com/cairoluan_cl/?hl=pt-br">Cairo
+          Luan</a>
+      </div>
+    </div>
+  </footer>
+
 </body>
+
 </html>
